@@ -9,12 +9,17 @@ class TelegramPluginConfig extends PluginConfig {
                 'label' => 'Telegram Bot',
             )),
             'telegram-bot-key' => new TextboxField(array(
-                'label' => 'Token for the bot ( 000000000:#################################### )',
+                'label' => 'Token for the bot',
                 'configuration' => array('size'=>100, 'length'=>200),
             )),
             'telegram-chat-id' => new TextboxField(array(
-                'label' => 'Chat ID ( 000000000 OR  -000000000 OR @######### )',
+                'label' => 'Chat ID',
                 'configuration' => array('size'=>100, 'length'=>200),
+            )),
+            'telegram-useragent' => new TextboxField(array(
+                'label' => 'User-Agent',
+                'configuration' => array('size'=>100, 'length'=>200),
+                'default' => "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101",
             )),
             'telegram-send-upd' => new BooleanField(array(
                 'label' => 'Send when updates on old ticket',
@@ -24,6 +29,7 @@ class TelegramPluginConfig extends PluginConfig {
                 'label' => 'Send when new tickets appear',
                 'default' => 0,
             )),
+
         );
     }
 }

@@ -26,6 +26,7 @@ class TelegramPlugin extends Plugin {
 
         $key_bot = $this->getConfig()->get('telegram-bot-key');
         $chanel = $this->getConfig()->get('telegram-chat-id');
+        $user_agent = $this->getConfig()->get('telegram-useragent');
 
         $text_messege = "*NEW:* ╢[".$ticket->getNumber()."](".$cfg->getUrl()."scp/tickets.php?id=".$ticket->getId().")╟ ".$ticket->getEmail()."\n";
         $text_messege .= "*".$ticket->getSubject()."*  ╢".$ticket->getName()."╟";
@@ -48,6 +49,7 @@ class TelegramPlugin extends Plugin {
 
         $key_bot = $this->getConfig()->get('telegram-bot-key');
         $chanel = $this->getConfig()->get('telegram-chat-id');
+        $user_agent = $this->getConfig()->get('telegram-useragent');
 
         $text_messege = "*UPD:* ╢[".$ticket->getNumber()."](".$cfg->getUrl()."scp/tickets.php?id=".$ticket->getId().")╟ ".$ticket->getEmail()."\n";
         $text_messege .= "*".$ticket->getSubject()."*  ╢".$ticket->getName()."╟";

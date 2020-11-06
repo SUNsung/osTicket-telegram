@@ -31,7 +31,7 @@ The bot key is also in plain text, without links, methods, etc.
 
 No links, etc.
 
-There is a third field with useragent, this is for those whose updates are tapped through the crowns and the network itself is spread out in a tricky way, which is why an empty request without identifiers is wrapped in a telegram. By default, this field is already filled in.
+There is a third field with useragent, this is for those whose updates are tapped through the cron and the network itself is spread out in a tricky way, which is why an empty request without identifiers is wrapped in a telegram. By default, this field is already filled in.
 
 
 Use the checkboxes to set which events to receive notifications.

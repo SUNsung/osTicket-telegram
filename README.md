@@ -21,6 +21,8 @@ UPD[16.05.2022] Бот серьезно переписался, добавила
 
 
 # ============================================
+![img plugin](https://github.com/[username]/[reponame]/blob/[branch]/Screenshot_2020-10-04 osTicket Панель Управления Администратора.png?raw=true)
+# ============================================
 
 Plugin for osTicket to receive alerts for new tickets or updating old ones
 
